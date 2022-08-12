@@ -4,7 +4,7 @@ import {
   IconMailForward,
   IconMapPins
 } from "@tabler/icons";
-import Image from "next/image";
+
 import { useState } from "react";
 
 function UserCardDetail(props) {
@@ -27,9 +27,9 @@ export default function UserCard(props) {
       <div className="d-flex align-items-center p-3">
         <img
           src={props.image}
-          // layout="fixed"
+          layout="fixed"
           width="90px"
-          // height="90px"
+          height="90px"
           className="rounded-circle me-4"
         />
         <span className="text-center display-6 me-auto">{props.name}</span>
